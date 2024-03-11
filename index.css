@@ -8,9 +8,28 @@
   box-sizing: border-box;
 }
 
+body{
+    margin: 0px;
+}
+
 .nav {
     background-color: #343a40;
+    padding: .5rem 1rem;
 }
+.b_nav{
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    /*background-color: transparent;*/
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
 .home{
     color: #fff;
     font-weight: bold;
@@ -165,4 +184,13 @@ footer {
 
 .foot{
     color: #6c757d;
+}
+
+.back{
+    text-align: center;
+    font-weight: bold;
+}
+.back a{
+    text-decoration: none;
+    color: black;
 }
