@@ -126,4 +126,13 @@
 .design{
     height: 225px;
     background-color: #343a40;
+    display: flex;
+}
+.name{
+    color: #fff;
+    text-align: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
